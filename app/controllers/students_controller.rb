@@ -19,6 +19,7 @@ class StudentsController < ApplicationController
       @student.active = true
     end
     @student.save
+    redirect_to students_path(@student)
     # binding.pry
   end
 
@@ -29,3 +30,4 @@ class StudentsController < ApplicationController
       @student = Student.find(params[:id])
     end
 end
+
