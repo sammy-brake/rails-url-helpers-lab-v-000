@@ -18,6 +18,7 @@ class StudentsController < ApplicationController
     else
       @student.active = true
     end
+    @student.save 
     # binding.pry
   end
 
