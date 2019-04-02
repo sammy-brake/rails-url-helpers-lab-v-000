@@ -13,11 +13,11 @@ class StudentsController < ApplicationController
 
   def activate_student
     set_student
-    if @student.active 
-      @student.active = false 
-    else 
-      @student.active = true 
-    end 
+    if @student.active
+      @student.active = false
+    else
+      @student.active = true
+    end
     # binding.pry
   end
 
