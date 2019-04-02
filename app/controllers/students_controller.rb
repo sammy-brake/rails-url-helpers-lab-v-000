@@ -11,6 +11,7 @@ class StudentsController < ApplicationController
 
   def activate_student
     set_student
+    binding.pry
   end
 
 
