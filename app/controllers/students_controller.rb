@@ -13,8 +13,7 @@ class StudentsController < ApplicationController
     set_student
   end
 
-  # patch '/tweets/:id' do
-  # end
+
   private
 
     def set_student
